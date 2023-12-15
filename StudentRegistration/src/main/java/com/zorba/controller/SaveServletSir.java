@@ -11,7 +11,7 @@ import com.zorba.service.StudentServiceSir;
 @WebServlet("/SaveServlet")
 public class SaveServletSir extends HttpServlet {
 	
-
+  //Practice
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) {
 		String name = request.getParameter("name");
 		String address = request.getParameter("address");
